@@ -1,5 +1,6 @@
-🌐 Personal Portfolio Website  
-![image](https://github.com/user-attachments/assets/aa095cea-a9aa-4ecf-9fb7-8cf22fcc54a6)
+🌐 Personal Portfolio Website
+![image](https://github.com/user-attachments/assets/cbcdd37f-d682-4118-8112-ff9a3d48327e)
+
 
 🚀 Overview  
 This is my personal portfolio website showcasing my skills, projects, and contact details. It is designed to be responsive and visually appealing.  
