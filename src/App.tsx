@@ -194,7 +194,7 @@ function App() {
       {/* Experience Section */}
       <section
         id="experience"
-        className="min-h-[60vh] flex items-center justify-center"
+        className="min-h-[80vh] flex items-center justify-center"
       >
         <div className="container mx-auto px-6 py-8">
           <h2 className="text-4xl font-bold mb-12">Experience</h2>
@@ -227,7 +227,7 @@ function App() {
       {/* Education Section */}
       <section
         id="education"
-        className="min-h-[80vh] flex items-center justify-center"
+        className="min-h-[90vh] flex items-center justify-center"
       >
         <div className="container mx-auto px-6 py-8">
           <h2 className="text-4xl font-bold mb-12">Education</h2>
