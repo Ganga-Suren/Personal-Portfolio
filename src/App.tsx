@@ -8,7 +8,6 @@ import {
   ExternalLink,
   Download,
 } from 'lucide-react';
-import portrait from '../docs/assets/portrait.png';
 
 function App() {
   const [activeSection, setActiveSection] = useState('hero');
@@ -51,6 +50,9 @@ function App() {
     }
   };
 
+  const resumeUrl = `${import.meta.env.BASE_URL}resume.pdf`;
+  const portraitUrl = `${import.meta.env.BASE_URL}portrait.png`;
+
   return (
     <div className="relative min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white overflow-hidden">
       <div
@@ -92,7 +94,7 @@ function App() {
                   )}
                 </div>
                 <a
-                  href="/docs/assets/Ganga_Surendra_Basva_Resume.pdf"
+                  href={resumeUrl}
                   target="_blank"
                   download
                   className="flex items-center gap-2 bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded-md transition-colors shadow-md"
@@ -122,7 +124,7 @@ function App() {
               />
             </div>
             <img
-              src={portrait}
+              src={portraitUrl}
               alt="Portrait of Ganga Surendra Basva"
               className="relative w-60 h-60 rounded-full object-cover border-4 border-gray-800 shadow-xl"
             />
