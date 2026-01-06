@@ -1,32 +1,42 @@
-🌐 Personal Portfolio Website
-![image](https://github.com/user-attachments/assets/cbcdd37f-d682-4118-8112-ff9a3d48327e)
+# Ganga Surendra Basva — Portfolio
 
+A responsive personal portfolio built with React + TypeScript and Tailwind CSS. It showcases experience, education, projects, skills, and contact details with animated visual accents (hero glow and subtle binary background).
 
-🚀 Overview  
-This is my personal portfolio website showcasing my skills, projects, and contact details. It is designed to be responsive and visually appealing.  
+## Features
+- Hero with photo, quick contact links, and resume download.
+- About, Experience, Education, Projects, and Skills sections with consistent hoverable cards.
+- Binary background overlay and animated hero halo for visual interest.
+- Mobile-friendly layout with smooth section navigation.
 
-✨ Features  
-- Responsive design for all screen sizes  
-- About Me section with bio and skills  
-- Projects section with GitHub links  
-- Contact form or social media links
+## Tech Stack
+- React + TypeScript (Vite)
+- Tailwind CSS
+- lucide-react icons
 
-🛠️ Tech Stack  
-- Frontend: HTML, CSS, JavaScript 
-- Hosting: Stackblitz
+## Getting Started
+```bash
+# install deps
+npm install
 
-📦 Installation & Setup  
-1. Clone the repository:  
-   git clone https://github.com/your-username/portfolio-website.git
-   
-2. Navigate to the project folder:
-   cd portfolio-website
-   
-3. Run development server :
-   - npm install
-   - npm start
-  
-📬 Contact  
-For inquiries, reach out via:  
-📧 Email: gangasurendrab@gmail.com  
-📱 LinkedIn: https://www.linkedin.com/in/ganga-surendra-basva-14239317a/
+# start dev server
+npm run dev
+
+# production build
+npm run build
+
+# preview production build
+npm run preview
+```
+
+## Key Files
+- `src/App.tsx` — main page layout and content.
+- `docs/assets/` — resume PDF and portrait image used in the hero.
+
+## Customization
+- Update contact links and resume path in `src/App.tsx`.
+- Swap the portrait image by replacing the file in `docs/assets/` and updating the import in `src/App.tsx`.
+- Adjust colors/animations via Tailwind classes in the same file.
+
+## Contact
+- Email: gangasurendrab@gmail.com  
+- LinkedIn: https://www.linkedin.com/in/ganga-surendra-basva
